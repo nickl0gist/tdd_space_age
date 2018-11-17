@@ -1,33 +1,29 @@
-# Space Age
+# Kosmiczny wiek
+Dla wieku osoby podanego w sekundach, oblicz ile lat miałaby ta osoba na:
 
-Given an age in seconds, calculate how old someone would be on:
+   - Ziemi: gdzie rok trwa 365.25 ziemskich dni lub 31557600 sekund
+   - Markurym: gdzie rok trwa 0.2408467 ziemskich lat
+   - Wenus: gdzie rok trwa 0.61519726 ziemskich lat
+   - Marsie: gdzie rok trwa 1.8808158 ziemskich lat
+   - Jowiszu: gdzie rok trwa 11.862615 ziemskich lat
+   - Saturnie: gdzie rok trwa 29.447498 ziemskich lat
+   - Uranie: gdzie rok trwa 84.016846 ziemskich lat
+   - Naptunie: gdzie rok trwa 164.79132 ziemskich lat
 
-   - Earth: orbital period 365.25 Earth days, or 31557600 seconds
-   - Mercury: orbital period 0.2408467 Earth years
-   - Venus: orbital period 0.61519726 Earth years
-   - Mars: orbital period 1.8808158 Earth years
-   - Jupiter: orbital period 11.862615 Earth years
-   - Saturn: orbital period 29.447498 Earth years
-   - Uranus: orbital period 84.016846 Earth years
-   - Neptune: orbital period 164.79132 Earth years
+Więc gdybyś dowiedział się, że ktoś ma 1,000,000,000 sekund, 
+byłbyś w stanie powiedzieć że ma on 31.69 ziemskich lat.
 
-So if you were told someone were 1,000,000,000 seconds old, you should
-be able to say that they're 31.69 Earth-years old.
+# Uruchomienie testów
 
-If you're wondering why Pluto didn't make the cut, go watch [this
-youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
-
-# Running the tests
-
-You can run all the tests for an exercise by entering
+Możesz wywołać wszystkie testy pisząć następującą komendę
 
 ```sh
 $ gradle test
 ```
 
-in your terminal.
+w konsoli.
 
-## Source
+## Źródło
 
-Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=01](http://pine.fm/LearnToProgram/?Chapter=01)
+Częściwo zainspirowane pierwszym rozdziałem następującego tutorialu: [http://pine.fm/LearnToProgram/?Chapter=01](http://pine.fm/LearnToProgram/?Chapter=01)
 
