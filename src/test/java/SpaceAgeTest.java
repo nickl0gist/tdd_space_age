@@ -15,6 +15,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnMercury() {
         SpaceAge age = new SpaceAge(2134835688);
@@ -23,6 +24,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnVenus() {
         SpaceAge age = new SpaceAge(189839836);
@@ -31,6 +33,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnMars() {
         SpaceAge age = new SpaceAge(2329871239L);
@@ -39,6 +42,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnJupiter() {
         SpaceAge age = new SpaceAge(901876382);
@@ -47,6 +51,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnSaturn() {
         SpaceAge age = new SpaceAge(3000000000L);
@@ -55,6 +60,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnUranus() {
         SpaceAge age = new SpaceAge(3210123456L);
@@ -63,6 +69,7 @@ public class SpaceAgeTest {
     }
 
 
+    @Ingore
     @Test
     public void ageOnNeptune() {
         SpaceAge age = new SpaceAge(8210123456L);
